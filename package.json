@@ -1,0 +1,27 @@
+{
+	"name": "css-practice-01-product-card",
+	"version": "1.0.0",
+	"description": "Практика к лекции «Синтаксис CSS и специфичность»: стилизуйте карточку курса по макету из Figma. Темы: подключение CSS, селекторы, специфичность.",
+	"main": "index.js",
+	"directories": {
+		"doc": "docs"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "2.6.4"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/hexlet-education-track/css-practice-01-product-card.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "MIT",
+	"type": "module",
+	"bugs": {
+		"url": "https://github.com/hexlet-education-track/css-practice-01-product-card/issues"
+	},
+	"homepage": "https://github.com/hexlet-education-track/css-practice-01-product-card#readme"
+}
