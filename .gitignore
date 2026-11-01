@@ -1,13 +1,5 @@
-# dependencies & environment
+# dependencies
 node_modules/
-.env
-.env.local
-.env.production
-
-# build
-dist/
-build/
-.next/
 
 # cache
 .cache/
@@ -15,9 +7,7 @@ build/
 # os
 .DS_Store
 Thumbs.db
-Desktop.ini
 
 # editors
 .vscode/
 .idea/
-*.swp
