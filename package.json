@@ -1,0 +1,21 @@
+{
+  "name": "css-practice-01-product-card",
+  "version": "1.0.1",
+  "private": true,
+  "description": "Практика к лекции CSS-1: стилизуйте карточку товара по макету из Figma. Темы: подключение CSS, селекторы по классу, специфичность.",
+  "scripts": {
+    "lint": "biome check",
+    "format": "biome check --write"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.6.4"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hexlet-education-track/css-practice-01-product-card.git"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,35 @@
+name: CI
+
+on:
+  push:
+    branches: [main, dev]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  lint:
+    name: Проверка кода
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Получить код
+        uses: actions/checkout@v7
+
+      - name: Установить Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version: lts/*
+          cache: npm
+
+      - name: Установить зависимости
+        run: npm ci
+
+      - name: Проверить HTML и CSS (Biome)
+        run: npx biome ci --reporter=github

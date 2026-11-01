@@ -1,0 +1,21 @@
+/* ===== Базовые стили: этот блок не меняем ===== */
+
+* {
+  box-sizing: border-box; /* разберём на следующем занятии */
+}
+
+#main {
+  margin: 0;
+  padding: 42px;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+button {
+  font-family: Arial, sans-serif;
+  border: none;
+  background-color: #cccccc;
+  color: #000000;
+}
+
+/* ===== Ваши стили — ниже этой строки ===== */
