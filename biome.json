@@ -6,7 +6,7 @@
     "useIgnoreFile": true
   },
   "files": {
-    "includes": ["src/**"]
+    "includes": ["src/**", "tests/**", "playwright.config.js"]
   },
   "formatter": {
     "enabled": true,

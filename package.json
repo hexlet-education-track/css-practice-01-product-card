@@ -5,10 +5,12 @@
   "description": "Практика к лекции CSS-1: стилизуйте карточку товара по макету из Figma. Темы: подключение CSS, селекторы по классу, специфичность.",
   "scripts": {
     "lint": "biome check",
-    "format": "biome check --write"
+    "format": "biome check --write",
+    "test": "playwright test"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.6.4"
+    "@biomejs/biome": "2.6.4",
+    "@playwright/test": "^1.64.1"
   },
   "engines": {
     "node": ">=20"
